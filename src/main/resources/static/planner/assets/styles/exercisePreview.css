@@ -1,0 +1,24 @@
+.exercisePreview {
+    margin-top: 30px;
+    padding: 16px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+}
+
+.previewContent h3 {
+    margin: 0 0 8px 0;
+    font-size: 18px;
+}
+
+.previewContent p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.exerciseVideo {
+    width: 100%;
+    border-radius: 8px;
+}

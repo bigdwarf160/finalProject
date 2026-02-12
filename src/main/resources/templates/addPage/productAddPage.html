@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>productAddPage</title>
+    <link rel="stylesheet" href="../../static/addPage/assets/styles/common.css">
+    <link rel="stylesheet" href="../../static/addPage/assets/styles/productAddPage.css">
+    <script defer src="../../static/addPage/assets/scripts/productAddPage.js"></script>
+
+</head>
+<body>
+<div class="container">
+    <h2>상품 등록</h2>
+
+    <!-- 이미지 업로드 -->
+    <div class="image-upload">
+        <label class="upload-btn" for="imageInput">
+            사진 추가 (<span id="count">0</span>/10)
+        </label>
+        <input type="file" id="imageInput" accept="image/*" multiple />
+        <div class="image-preview" id="preview"></div>
+    </div>
+
+    <!-- 상품명 -->
+    <div class="form-group">
+        <label>
+            <input id="title" type="text" placeholder="상품명을 입력하세요" />
+        </label>
+    </div>
+
+    <div class="form-group price-group">
+        <label for="priceInput"></label>
+        <input
+                type="text"
+                id="priceInput"
+                placeholder="가격을 입력하세요"
+        />
+        <span class="price-unit">원</span>
+    </div>
+
+    <!-- 내용 -->
+    <div class="form-group">
+        <label>
+            <textarea id="content" placeholder="내용을 입력하세요"></textarea>
+        </label>
+    </div>
+
+    <!-- 등록 -->
+    <button class="submit-btn" id="submitBtn">등록</button>
+</div>
+
+<script>
+
+
+</script>
+</body>
+</html>

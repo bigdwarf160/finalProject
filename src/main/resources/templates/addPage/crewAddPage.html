@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>게시글 작성</title>
+    <link rel="stylesheet" href="/addPage/assets/styles/common.css">
+    <link rel="stylesheet" href="/addPage/assets/styles/crewAddPage.css">
+    <script defer src="/addPage/assets/scripts/crewAddPage.js"></script>
+</head>
+<body>
+<div class="container">
+    <h2>게시글 작성</h2>
+
+    <!-- 이미지 업로드 -->
+    <label class="upload-btn" for="imageInput">사진 추가 (<span id="count">0</span>/5)</label>
+    <input type="file" id="imageInput" accept="image/*" multiple>
+    <div class="image-preview" id="preview"></div>
+
+    <!-- 제목 / 내용 -->
+    <input type="text" id="titleInput" placeholder="제목을 입력하세요">
+    <textarea id="contentInput" placeholder="내용을 입력하세요"></textarea>
+
+    <button class="submit-btn" id="submitBtn">등록</button>
+</div>
+</body>
+</html>
