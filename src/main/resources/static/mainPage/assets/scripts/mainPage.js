@@ -1,3 +1,5 @@
+//운동 자극 글귀 추가
+
 const plannerBtn = document.getElementById('plannerBtn');
 plannerBtn.addEventListener('click', () => {
     window.location.href = '../planner/planner.html';
