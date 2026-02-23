@@ -12,16 +12,6 @@ public class MainController {
         return "/mainPage/mainPage";
     }
 
-    @GetMapping("/planner")
-    public String planner(){
-        return "/planner/planner";
-    }
-
-    @GetMapping("/add")
-    public String add(){
-        return "/addPage/crewAddPage";
-    }
-
     @GetMapping("login")
     public String login(){
         return "/login/login";
