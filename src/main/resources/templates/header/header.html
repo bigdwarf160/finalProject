@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>header</title>
-    <link rel="stylesheet" href="header/assets/styles/header.css">
-    <script defer src="header/assets/scripts/header.js"></script>
+    <link rel="stylesheet" href="/header/assets/styles/header.css">
+    <script defer src="/header/assets/scripts/header.js"></script>
 </head>
 <body>
 
@@ -12,7 +12,7 @@
 <header class="box" id="header" th:fragment="customer-header" th:with="isSigned = ${session.sessionUser != null}">
     <div class="left">
         <a href="/main" class="box" id="logo">
-            <img src="/assets/images/logo.png" alt="" class="logo">
+            <img src="/header/assets/images/logo.png" alt="" class="logo">
         </a>
         <ul class="nav">
             <li class="item selected"><a href="/main">HOME</a></li>
